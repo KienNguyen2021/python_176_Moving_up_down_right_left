@@ -23,7 +23,7 @@ def turn_right():
 
 def clear():
     tim.clear()   # clear screen after drawing
-    tim.penup()   # clear all the old roads
+    tim.penup()   # clear all the old roads when the turtle is gone
     tim.home()   # the turtle go back home at (0,0)
     tim.pendown() # ready for next moving
 
