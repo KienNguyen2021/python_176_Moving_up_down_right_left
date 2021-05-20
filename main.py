@@ -3,7 +3,7 @@ tim = Turtle()
 screen = Screen()
 
 
-# Creat 8 turtles
+# Create 8 turtles
 # w = forwards, s = backwards, a = counter-clockwise, d = clockwise
 # Turtle draw a curve
 # c = clear drawing, the put the turtle back in the center
@@ -24,7 +24,7 @@ def turn_right():
 def clear():
     tim.clear()   # clear screen after drawing
     tim.penup()   # clear all the old roads
-    tim.home()   # the turtle go back home (0,0)
+    tim.home()   # the turtle go back home at (0,0)
     tim.pendown() # ready for next moving
 
 
